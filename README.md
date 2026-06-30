@@ -63,16 +63,3 @@ XGBoost modeli, hem cross validation skorunda hem de test seti performansında R
 ├── concrete_strength_model.ipynb   # Analiz ve modelleme notebook'u
 └── README.md
 ```
-
-## Nasıl Çalıştırılır
-
-```bash
-pip install pandas numpy matplotlib seaborn statsmodels scikit-learn xgboost
-jupyter notebook concrete_strength_model.ipynb
-```
-
-## Geliştirme Fikirleri
-
-- LightGBM veya CatBoost gibi farklı ağaç tabanlı modellerin denenmesi
-- Stacking/ensemble yaklaşımlarının kullanılması
-- Aykırı değer analizi yapılması
